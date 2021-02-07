@@ -9,7 +9,8 @@ class CLIArgs {
 class Flag {
 	constructor(name,alias,usage="",exp="") {
 		this.name=name;
-		this.alias=alias;
+		this.flag=this.set_flag(name);
+		this.alias=this.set_flag(alias);
 		this.usage=usage;
 		this.exp=exp;
 	}
