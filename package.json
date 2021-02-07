@@ -1,0 +1,15 @@
+{
+  "name": "svg2images",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "r": "node app.js"
+  },
+  "keywords": [],
+  "author": "A. Taha Baki",
+  "license": "MIT",
+  "description": "Converting svg animation to image sequences...",
+  "dependencies": {
+    "puppeteer": "^5.5.0"
+  }
+}
