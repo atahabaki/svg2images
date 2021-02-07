@@ -13,6 +13,10 @@ class Flag {
 		this.usage=usage;
 		this.exp=exp;
 	}
+
+	set_flag(flag) {
+		return flag.startsWith("-") ? flag : `-${flag}`;
+	}
 }
 
 class Command extends Flag {
