@@ -10,6 +10,7 @@
   "license": "MIT",
   "description": "Converting svg animation to image sequences...",
   "dependencies": {
+    "commander": "^7.1.0",
     "puppeteer": "^5.5.0"
   }
 }
