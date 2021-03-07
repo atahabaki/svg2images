@@ -6,7 +6,6 @@ program
 	.option("-i, --input [string]", "Input file, html", "./examples/index.html")
 	.option("-w, --width [int]", "Width of the browser", "1080")
 	.option("-h, --height [int]", "Height of the browser", "1920")
-	.option("-f, --framerate [int]", "Frame rate of the ")
 	.option("-s, --start [int]", "Start frame", "60")
 	.option("-e, --end [int]", "End frame", "60")
 	.option("-o, --output [string]", "Output folder", "./output")
