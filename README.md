@@ -31,10 +31,6 @@ Create an html file and import `svg2images.js` script file into it, then run the
 	```text
 	Frame rate of the animation, how fast you want your animation to be...
 	```
-*	**-d, --duration [int]**
-	```text
-	Animation duration of the animation.
-	```
 *	**-s, --start [int]**
 	```text
 	Animations, start frame...
