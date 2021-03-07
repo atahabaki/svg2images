@@ -55,6 +55,5 @@ Good luck!.. :100: :ok_hand:
 ## Customizations:
 
 - [ ] CLI arguments for SVG document (width, height, animation duration, and frame rate)
-- [ ] CLI arguments for exporting the file
-- [ ] CLI argument for input file for html
-- [ ] CLI argument for input file for svg
+- [x] CLI arguments for exporting the file (Already done...)
+- [x] CLI argument for input file for html
