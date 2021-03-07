@@ -27,10 +27,6 @@ Create an html file and import `svg2images.js` script file into it, then run the
 	```text
 	Height of the browser, same as the width, prepare well.
 	```
-*	**-f, --framerate [int]**
-	```text
-	Frame rate of the animation, how fast you want your animation to be...
-	```
 *	**-s, --start [int]**
 	```text
 	Animations, start frame...
