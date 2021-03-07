@@ -30,6 +30,9 @@ console.log(options);
 	let frame = parseInt(options.start); //start_frame;
 
 	await page.exposeFunction('takeFrame', async () => {
+		if (frame === parseInt(options.end)) {
+			process.exit(0)
+		}
 		let arr1 = options.naming.split('%');
 		let constant = arr1[0]; //first part
 		let arr2 = arr1[1].split(".");
